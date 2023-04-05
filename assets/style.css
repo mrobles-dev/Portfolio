@@ -1,0 +1,21 @@
+header{
+    background-color: rgb(102, 25, 25);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+nav a:hover{
+    color:aqua
+}
+
+nav ul{
+display: flexbox;
+justify-content: space-between;
+min-width: 300px;
+background-color: rgb(13, 12, 12);
+padding: 10px 10px;
+}
+
+
