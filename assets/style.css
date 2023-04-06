@@ -1,8 +1,8 @@
 body {
 background: url(robles-back.jpg);
-background-size: cover;
+background-size:cover ;
 background-repeat: no-repeat;
-background-position: center center;
+background-position: center ;
 color: white;
 }
 
@@ -11,29 +11,62 @@ header{
     border-radius: 25px;
     font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;}
+    
+    .avatar{
+        width: 155px;
+        height: 175px;
+        border-radius: 25%;
+    }
+    
+.filler{
+    display: flex;
+}
 
-  
-nav h1{
+
+    .grid-container p{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-row-gap: 100px;
+        grid-column-gap: 100p;
+    }
+    
+    
+    p {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        font-size: 25px;
+    }
+
+    .grid-container h2{
+        border: ;
+        border-width: thick;
+        border-style: dashed;
+        border-color: rgb(158, 100, 197);
+    }
+
+    nav h1{
     display: flex;
     justify-content: center;
-    font-size: 45px;
+    font-size: 30px;
      height: 25px;
      gap: 2rem;
 }
+
+
 nav a:hover{
     color: white;
 }
 
 nav ul{
-
-display: inline-flexbox;
+display: flex;
+justify-content: space-evenly;
+list-style-type: none;
 background-color: rgb(13, 12, 12);
-margin-block: 45px;
+padding: 30px;
+margin-block: 15px;
+gap: 3rem;
 
-}
-
-aside {
-    font-size: 25px;
 }
 
 
@@ -42,7 +75,11 @@ aside {
     
 }
 
-  p {
-      display: flex;
-      justify-content: space-evenly;
-  }
+.grid-container img{
+    display: flex;
+    justify-content:left;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+}
+  

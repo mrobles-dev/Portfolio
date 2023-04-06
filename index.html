@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milton's Portfolio</title>
-    <link rel="stylesheet"   href="./assets/style.css"/>
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <body>
     <header>
         <nav>
             <h1> Milton Robles</h1>
-            <ul> 
-                <li><a href="#Home"> Home </a></li>
-                <li><a href= "#about-me"> About Me </a></li>
-                <li><a href= "#resume">Resume</a></li>
-                <li><a href= "#contact-me">Contact Me</a></li>
+            <img src=".//assets/profile-avatar.jpg" alt="avatar" class="avatar">
+            <ul>
+                <li><a href="#about-me"> About Me </a></li>
+                <li><a href="#projects">Resume</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
-            </nav>
+        </nav>
     </header>
- 
+
 
     <main>
-        <aside id="about-me">
-            <h2>  About me</h2>
-            <p> Welcome to my Portfolio. My name is Milton Jeremy Robles. My younger years were spent serving in the U.S. Army as a Signals Intelligence Analyst. COVID struck right as I was exiting the Army, so I spent the following years in sales for major telecommunications companies. There I learned I wanted to be closer to the systems and technology we use every day. Now, I spend my time utilizing Full Stack Web Development to reach the next frontier.</p>
-        </aside>
+        <section class="grid-container" id="about-me">
+            <h2> About me</h2>
+            <img src="./assets/My project-1.jpg" alt="filler" class="filler">
+            <p> Welcome to my Portfolio. My name is Milton Jeremy Robles. My younger years were spent serving in the
+                U.S.
+                Army as a
+                Signals Intelligence Analyst. COVID struck right as I was exiting the Army, so I spent the following
+                years
+                in sales
+                for major telecommunications companies. There I learned I wanted to be closer to the systems and
+                technology
+                we use
+                every day. Now, I spend my time utilizing Full Stack Web Development to reach the next frontier.</p>
+                <!-- <img src="./assets/My project-1.jpg" alt="filler" class="filler"> -->
+        </section>
 
-        <aside id="work">
-            <h2>Work</h2>
-            <p>Here is a few example of my works.</p>
-        </aside>
-
-        <aside id="resume">
-            <h2> Resume</h2>
-            <p> This is my resume</p>
-        </aside>
-
+        <section class="grid-container " id="projects">
+            <h2>Projects</h2>
+            <p>Here is a few example of my works:</p>
+            <picture>
+                <a href="https://mrobles-dev.github.io/Code-Refactor/"> 
+                <img src="assets/screencapture-mrobles-dev-github-io-Code-Refactor-2023-04-06-01_36_48-2.png"> </img> </a>
+            </picture>
+        </section>
 
 
 
@@ -45,8 +55,8 @@
 
 
 
-    <footer>
-        <h2> Contact me </h2>
+    <footer id="contact-me">
+        <h3> Contact me </h3>
         <p class="links">
             <a href="https://github.com/mrobles-dev"> Github </a>
             <a href="mailto:miltonjrobles1996@gmail.com"> Mail </a></li>
@@ -54,5 +64,6 @@
         </p>
     </footer>
 
-    </body>
+</body>
+
 </html>
