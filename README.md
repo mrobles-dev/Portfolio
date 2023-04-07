@@ -1,18 +1,30 @@
 # Portfolio
-Working portfolio.
+The genesis of my professional portfolio.
+
+## Description
+
+For the start of my web development journey, having a working portfolio is imperative. This site serves as the jump off for what will become a polished and professional portfolio.
+
+
+- The main motivation behind the color scheme of mostly white and violet is what I believe to represent a cool and calmed web environment.
+- This project was necessary because everything was coded from scratch through trial, error, and reading through many documents.
+- Since I didn't have coding experience, this was a great crash course into all the concepts of writing and styling code.
+- Coding from scratch taught me there WILL be bugs in making the perfect website. Also, going in blind isn't great so create a wireframe and use it as a guide, not a strict enforcer, be fluid.
 
 
 
 
 
 
+## Acknowledgements
 
+- https://www.w3schools.com/default.asp
 
+- https://techbootcamps.utexas.edu/coding/landing/?s=Google-Brand_Tier-1_&dki=Learn%20Coding&pkw=uta%20coding%20bootcamp&pcrid=454953517096&pmt=e&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CUT-AUSTIN%7CSEM%7CCODING%7C-%7CONL%7CTIER-1%7CALL%7CBRD%7CEXACT%7CCore%7CBootcamp&utm_term=uta%20coding%20bootcamp&s=google&k=uta%20coding%20bootcamp&utm_adgroupid=106620982792&utm_locationphysicalms=9027404&utm_matchtype=e&utm_network=g&utm_device=c&utm_content=454953517096&utm_placement=&gclid=CjwKCAjwrJ-hBhB7EiwAuyBVXQpIBU96b0ruKKYRG44nRmzF-SY_1Hrmi6QJH-8lecgf8qXxnRMzEhoC58kQAvD_BwE&gclsrc=aw.ds
 
+- https://imagecolorpicker.com/en
 
-
-
-
+Thank you all.
 
 
 
