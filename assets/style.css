@@ -1,3 +1,4 @@
+
 body {
 background: url(robles-back.jpg);
 background-size:cover ;
@@ -8,14 +9,18 @@ color: white;
 
 header{
     background-color: rgba(121, 38, 142, 255);
+    background-image: linear-gradient( to right, rgba(121, 38, 142, 255),rgba(34, 7, 127, 255), white );
     border-radius: 25px;
     font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;}
     
     .avatar{
-        width: 155px;
-        height: 175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
         border-radius: 25%;
+        box-shadow: 8px 8px 8px black;
     }
     
 .filler{
@@ -39,7 +44,8 @@ header{
     }
 
     .grid-container h2{
-        border: ;
+        border: 35px;
+        font-weight: bold;
         border-width: thick;
         border-style: dashed;
         border-color: rgb(158, 100, 197);
@@ -52,6 +58,19 @@ header{
      height: 25px;
      gap: 2rem;
 }
+
+span[data-descr]:hover::after{
+    content: attr(data-descr);
+    position:relative;
+    border: 10px violet;
+    border-radius: 50px;
+    background-color: blueviolet;
+    padding: 10px;
+    /* font-size: 75%; */
+    z-index: 1;
+
+}
+
 
 
 nav a:hover{
@@ -66,6 +85,14 @@ background-color: rgb(13, 12, 12);
 padding: 30px;
 margin-block: 15px;
 gap: 3rem;
+font-size: 25px;
+
+}
+
+
+#contact-me{
+border-style: solid;
+border-color: brown;
 
 }
 
@@ -75,11 +102,45 @@ gap: 3rem;
     
 }
 
-.grid-container img{
-    display: flex;
-    justify-content:left;
+.links a:hover{
+color: rgb(158, 100, 197);
+}
+
+
+.click-me:hover {
+color: blueviolet;
+    opacity: 1;
+}
+
+
+#project-site{
+   
     background-size: contain;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+  
 }
   
+#filler{
+
+        background-size: contain;
+        height: 300px;
+        width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    header,main,nav, div{
+        flex-direction:block ;
+    }
+
+    section { 
+        text-align: center;
+
+    }
+}
+
+@media screen and(max-width:760px){
+   p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
