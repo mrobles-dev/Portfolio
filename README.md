@@ -17,7 +17,7 @@ Enclosed is the working link to my page as well as a screenshot of the full page
 
 - https://mrobles-dev.github.io/Portfolio/
 
-![alt tex](/assets/Portfolio%20ScreenShot_1.jpg)
+![alt tex](/assets/web-picture_1.jpg)
 
 
 
