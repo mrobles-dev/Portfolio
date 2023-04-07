@@ -11,7 +11,13 @@ For the start of my web development journey, having a working portfolio is imper
 - Since I didn't have coding experience, this was a great crash course into all the concepts of writing and styling code.
 - Coding from scratch taught me there WILL be bugs in making the perfect website. Also, going in blind isn't great so create a wireframe and use it as a guide, not a strict enforcer, be fluid.
 
+## Use
 
+Enclosed is the working link to my page as well as a screenshot of the full page.
+
+- https://mrobles-dev.github.io/Portfolio/
+
+![alt tex](/assets/Portfolio%20ScreenShot_1.jpg)
 
 
 
