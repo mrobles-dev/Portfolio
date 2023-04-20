@@ -101,6 +101,9 @@ margin-bottom: 70px;
 
 }
 
+#p-link{
+    color: antiquewhite;
+}
 
 .links a {
     color: aliceblue;
@@ -126,6 +129,17 @@ color: blueviolet;
     height: 500px;
   
 }
+
+#anime{
+background-size: contain;
+    height: 500px;
+}
+
+#memes{
+background-size: contain;
+    height: 500px;
+    width: 500px;
+}
   
 #filler{
 
@@ -133,6 +147,18 @@ color: blueviolet;
         height: 300px;
         width: 300px;
 }
+
+
+#track{
+    background-size: contain;
+        height: 500px;
+}
+
+.portfolio-images{
+    display: block;
+    justify-content: space-evenly;
+}
+
 
 @media screen and (max-width: 768px) {
     header,main,nav, div{
