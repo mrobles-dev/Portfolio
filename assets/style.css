@@ -30,7 +30,7 @@ header{
         /* display: grid;
         grid-template-columns: 400px; */
         grid-row-gap: 100px;
-        grid-column-gap: 100p;
+        grid-column-gap: 100px;
         margin-top: 40px;
         margin-bottom: 40px;
         word-break: break-word;
@@ -128,6 +128,50 @@ color: blueviolet;
     background-size: contain;
     height: 500px;
   
+}
+
+.password{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: 1s ease;
+    backface-visibility: hidden;
+
+}
+
+.middle{
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.portfolio-images:hover .password{
+    opacity: 0.3;
+}
+
+.portfolio-images:hover .middle{
+    opacity: 1;
+}
+
+
+.text{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25x;
+    padding: 16px 2px;
+}
+
+
+.password {
+
+    background-size: contain;
+    height: 500px;
+
 }
 
 #anime{
