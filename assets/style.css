@@ -25,7 +25,6 @@ header{
     }
     
 
-
     .grid-container p{
         /* display: grid;
         grid-template-columns: 400px; */
@@ -126,81 +125,40 @@ color: blueviolet;
 #project-site{
    
     background-size: contain;
-    height: 500px;
+    height: 300px;
   
 }
 
-.password{
-    opacity: 1;
-    display: block;
-    height: auto;
-    transition: 1s ease;
-    backface-visibility: hidden;
-
-}
-
-.middle{
-    transition: .1s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%,-50%);
-    text-align: center;
-}
-
-.portfolio-images:hover .password{
-    opacity: 0.3;
-}
-
-.portfolio-images:hover .middle{
-    opacity: 1;
-}
-
-
-.text{
-    background-color: black;
-    color: whitesmoke;
-    font-size: 25x;
-    padding: 16px 2px;
-}
 
 
 .password {
 
     background-size: contain;
-    height: 500px;
+    height: 300px;
 
 }
 
 #anime{
 background-size: contain;
-    height: 500px;
+    height: 300px;
 }
 
 #memes{
 background-size: contain;
-    height: 500px;
-    width: 500px;
+    height: 300px;
+  
 }
   
-#filler{
-
-        background-size: contain;
-        height: 300px;
-        width: 300px;
-}
-
 
 #track{
     background-size: contain;
-        height: 500px;
+        height: 300px;
 }
 
 .portfolio-images{
     display: block;
     justify-content: space-evenly;
+    padding-left: 300px;
 }
 
 
@@ -209,10 +167,10 @@ background-size: contain;
         flex-direction:block ;
     }
 
-    section { 
+    /* section { 
         text-align: center;
 
-    }
+    } */
 }
 
 @media screen and(max-width:760px){
@@ -221,3 +179,12 @@ background-size: contain;
         text-align: center;
     }
 }
+
+
+/* @media screen and(max-width:760px) {
+    .portfolio-images {
+        font-size: 1rem;
+        text-align: center;
+        padding-left: none;
+    }
+} */
